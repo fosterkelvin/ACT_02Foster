@@ -5,17 +5,18 @@ import Navbar from './myComp/navbar';
 
 function App() {
   return (
-    <div className="container-fluid" style={{ backgroundColor: "gray" }}>
-      <navbar>
+    <div className=" text-center text-bg-dark">
+      <header className="mb-auto ">
         <Navbar/>
-      </navbar>
-      <div className="container">
-        <br></br><br></br><br></br><br></br>
+      </header>
+      <br></br>
+      <hr></hr>
+      <div>
         <Main/>
       </div>
-      <footer>
+      <div className="">
         <Footer/>
-      </footer>
+      </div>
     </div>
   );
 }
