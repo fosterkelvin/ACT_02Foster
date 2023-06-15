@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './myComp/footer';
 import Main from './myComp/main';
 import Navbar from './myComp/navbar';
+import Reference from './myComp/reference';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Main/>
       </div>
       <div className="">
+        <Reference/>
         <Footer/>
       </div>
     </div>
