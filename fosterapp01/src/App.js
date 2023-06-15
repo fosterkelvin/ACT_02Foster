@@ -15,7 +15,7 @@ function App() {
       <div>
         <Main/>
       </div>
-      <div className="">
+      <div>
         <Reference/>
         <Footer/>
       </div>
