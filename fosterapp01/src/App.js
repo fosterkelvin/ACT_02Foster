@@ -7,10 +7,9 @@ import Reference from './myComp/reference';
 function App() {
   return (
     <div className=" text-center text-bg-dark">
-      <header className="mb-auto ">
+      <header>
         <Navbar/>
       </header>
-      <br></br>
       <hr></hr>
       <div>
         <Main/>

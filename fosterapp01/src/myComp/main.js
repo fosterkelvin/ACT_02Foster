@@ -2,67 +2,84 @@ function Main(){
     return(
         <main className="px-3">
             <br></br>
-            <h1 >7 Simple Ways to Reduce Your Carbon Footprint</h1>
-            <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/articles/iStock-494882508-Copy_1100x.jpg?v=1639148589" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
+            <section id="home">
+                <h1>7 Simple Ways to Reduce Your Carbon Footprint</h1>
+                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
+                    <div className="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/articles/iStock-494882508-Copy_1100x.jpg?v=1639148589" className="rounded" alt="..." style={{ width: '50%', height: 'auto' }}></img>
+                        </div>
+                        <div className="carousel-item">
+                            <img src="https://williamcampbellrecycling.co.uk/wp-content/uploads/2018/04/AdobeStock_136368541.jpg" className="rounded" alt="..." style={{ width: '50%', height: 'auto' }}></img>
+                        </div>
+                        <div className="carousel-item">
+                            <img src="https://www.metroherald.com/wp-content/uploads/2020/01/images3291-5e2eaaba056ba-768x516.jpg" className="rounded" alt="..." style={{ width: '50%', height: 'auto' }}></img>
+                        </div>
+                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div className="carousel-item">
-                <img src="https://williamcampbellrecycling.co.uk/wp-content/uploads/2018/04/AdobeStock_136368541.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                </div>
-                <div className="carousel-item">
-                <img src="https://www.metroherald.com/wp-content/uploads/2020/01/images3291-5e2eaaba056ba-768x516.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-            </div>
-            <p className="lead">Reducing your carbon footprint is an essential step towards combating ch3mate change. By making small changes to your daily habits,
-            <br></br> you can contribute to a greener and more sustainable future. Here are seven simple yet impactful actions you can take to reduce your carbon footprint:</p>
-            <br></br>
-            <p className="lead">
-                    <h3>Cut Out Meat and Dairy:</h3>
-                    <p className="container">Adopting a vegetarian or vegan diet is one of the most effective ways to reduce your impact on ch3mate change. Cows and other farmed animals generate tremendous amounts of methane.
-                         Producing their feed and maintaining their land also creates greenhouse gases. Of all greenhouse gases generated by human activity worldwide, an estimated 14.5 percent can be 
-                         attributed to h3vestock, according to the Food and Agriculture Organization of the United Nations. Comparing meat sources, beef is the second-highest producer of 
-                         greenhouse gases, after lamb. Beef creates twice the emissions of pork, four times the emissions of chicken and 13 times the emissions of vegetable proteins such as beans,
-                          according to the Environmental Working Group (EWG). Dairy from cows is also responsible for a great deal of emissions; according to the EWG, cheese is the third-highest 
-                          producer, behind lamb and beef.</p>
-                        <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/dairycow1.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                          
-                    <br></br>
-                    <h3>Eat and Shop Locally:</h3>
-                    <p className="container">It takes a great deal of fuel to transport foods and other products to your grocery store or home. Buy directly from local farmers and merchants when you can, and try to eat only 
-                        seasonal and organic food.</p>
-                    <h3>Minimize Plastics and Packaging:</h3>
-                    <p className="container">Plastics are made from petroleum, and lots of plastic and other packaging materials end up in landfills. Look for items that are wrapped in minimal packaging, and buy in bulk when possible. </p>
-                    <h3>Avoid Fast Fashion:</h3>
-                    <p className="container">Fast fashion refers to designs that are quickly produced to reflect current trends. To keep costs down, manufacturers use cheap, petroleum-based fibers such as polyester. Producing these fabrics creates greenhouse gases. And because these cheap fabrics tend to wear down quickly, many pieces end up in landfills, where they produce methane as they degrade. Look for sustainable fashions and choose timeless items you'll keep and wear for years instead.</p>
-                    <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/fast-fashion-1.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                    <h3>Minimize Electricity Use:</h3>
-                    <p className="container">Electricity is the largest source of greenhouse gas, accounting for 30 percent of all U.S. emissions in 2014. Be mindful of how you use electricity at home and work. Turn off and unplug devices that aren't in use, and teach kids to do the same. Adjust your thermostat to keep your space just warm or cool enough to be comfortable, and take short showers to use minimal hot water. Use energy-efficient apph3ances and check that your home is properly insulated so your heated or cooled air doesn't escape. Remember to also turn off all h3ghts when you're not using them, and change all incandescent h3ght bulbs to LED bulbs. The U.S. Department of Energy estimates that switching all h3ghts in the U.S. to LED could prevent 1,800 milh3on metric tons of carbon emissions. </p>
-                    <h3>Travel More Efficiently:</h3>
-                    <p className="container">Transportation is the second-largest source of emissions in the U.S., so use a personal car as h3ttle as possible. Walk, bike, use pubh3c transportation, or carpool instead of driving alone. Keep your tires properly inflated to maximize gas mileage.</p>
-                    <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/bike-commute-scaled.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                    <h3>Recycle:</h3>
-                    <p className="container">Buying recycled products and recych3ng your own used products keeps waste out of landfills and reduces the number of new things that need to be produced using fuel. Whenever you can, reuse something before recych3ng it. Turn old clothes into rags, save jars and cans for storage, and repair furniture rather throwing it away.</p>
-                    <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/recycle-1.jpg" className="rounded " alt="..." style={{width: '600px', heigt:'300px'}}></img>
-                    <br></br>
-            </p>
+                <p className="lead">Reducing your carbon footprint is an essential step towards combating climate change. By making small changes to your daily habits,
+                    <br></br> you can contribute to a greener and more sustainable future. Here are seven simple yet impactful actions you can take to reduce your carbon footprint:</p>
+                <br></br>
+                <section id="ways">
+                    <div className="lead">
+                        <h3>1. Cut Out Meat and Dairy:</h3>
+                        <div className="container">
+                            <p>Adopting a vegetarian or vegan diet is one of the most effective ways to reduce your impact on climate change. Cows and other farmed animals generate tremendous amounts of methane.
+                                Producing their feed and maintaining their land also creates greenhouse gases. Of all greenhouse gases generated by human activity worldwide, an estimated 14.5 percent can be
+                                attributed to livestock, according to the Food and Agriculture Organization of the United Nations. Comparing meat sources, beef is the second-highest producer of
+                                greenhouse gases, after lamb. Beef creates twice the emissions of pork, four times the emissions of chicken and 13 times the emissions of vegetable proteins such as beans,
+                                according to the Environmental Working Group (EWG). Dairy from cows is also responsible for a great deal of emissions; according to the EWG, cheese is the third-highest
+                                producer, behind lamb and beef.</p>
+                            <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/dairycow1.jpg" className="rounded" alt="..." style={{ width: '75%', height: 'auto' }}></img>
+                        </div>
+                        <br></br>
+                        <h3>2. Eat and Shop Locally:</h3>
+                        <div className="container">
+                            <p>It takes a great deal of fuel to transport foods and other products to your grocery store or home. Buy directly from local farmers and merchants when you can, and try to eat only
+                                seasonal and organic food.</p>
+                        </div>
+                        <h3>3. Minimize Plastics and Packaging:</h3>
+                        <div className="container">
+                            <p>Plastics are made from petroleum, and lots of plastic and other packaging materials end up in landfills. Look for items that are wrapped in minimal packaging, and buy in bulk when possible. </p>
+                        </div>
+                        <h3>4. Avoid Fast Fashion:</h3>
+                        <div className="container">
+                            <p>Fast fashion refers to designs that are quickly produced to reflect current trends. To keep costs down, manufacturers use cheap, petroleum-based fibers such as polyester. Producing these fabrics creates greenhouse gases. And because these cheap fabrics tend to wear down quickly, many pieces end up in landfills, where they produce methane as they degrade. Look for sustainable fashions and choose timeless items you'll keep and wear for years instead.</p>
+                            <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/fast-fashion-1.jpg" className="rounded" alt="..." style={{ width: '75%', height: 'auto' }}></img>
+                        </div>
+                        <h3>5. Minimize Electricity Use:</h3>
+                        <div className="container">
+                            <p>Electricity is the largest source of greenhouse gas, accounting for 30 percent of all U.S. emissions in 2014. Be mindful of how you use electricity at home and work. Turn off and unplug devices that aren't in use, and teach kids to do the same. Adjust your thermostat to keep your space just warm or cool enough to be comfortable, and take short showers to use minimal hot water. Use energy-efficient appliances and check that your home is properly insulated so your heated or cooled air doesn't escape. Remember to also turn off all lights when you're not using them, and change all incandescent light bulbs to LED bulbs. The U.S. Department of Energy estimates that switching all lights in the U.S. to LED could prevent 1,800 million metric tons of carbon emissions.</p>
+                        </div>
+                        <h3>6. Travel More Efficiently:</h3>
+                        <div className="container">
+                            <p>Transportation is the second-largest source of emissions in the U.S., so use a personal car as little as possible. Walk, bike, use public transportation, or carpool instead of driving alone. Keep your tires properly inflated to maximize gas mileage.</p>
+                            <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/bike-commute-scaled.jpg" className="rounded" alt="..." style={{ width: '75%', height: 'auto' }}></img>
+                        </div>
+                        <h3>7. Recycle:</h3>
+                        <div className="container">
+                            <p>Buying recycled products and recycling your own used products keeps waste out of landfills and reduces the number of new things that need to be produced using fuel. Whenever you can, reuse something before recycling it. Turn old clothes into rags, save jars and cans for storage, and repair furniture rather throwing it away.</p>
+                            <img src="https://cdn.shopify.com/s/files/1/0569/0615/4154/files/recycle-1.jpg" className="rounded" alt="..." style={{ width: '75%', height: 'auto' }}></img>
+                        </div>
+                    </div>
+                </section>
+            </section>
             <br></br><br></br>
         </main>
+
     );
 }
 
